@@ -1,0 +1,95 @@
+
+/*color and font*/
+
+body{
+	background-color: #D6D6D6;
+	color : rgb(50, 50, 50);
+	font-family: 'Merriweather', serif;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+
+h1, h2, h3 {
+	font-family: 'Quicksand', sans-serif;
+}
+h1{
+	color : #2c6e49;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+h2{
+	color :#725752;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+a{
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	text-decoration: none;
+	color : #5D8BF4;
+}
+
+a:hover{
+	color : royalblue;
+}
+
+/*costume design and style*/
+
+.container{
+	width: 700px;
+	margin: 70px auto;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #5D8BF4;
+	color : white;
+	padding : 11px 11px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover{
+	background-color: lightgrey;
+	color : #5D8BF4;
+	padding : 11px 11px;
+	border-radius: 4px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px ;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color : lightgrey;
+}
+
+.list-inline i : hover {
+	color : black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
